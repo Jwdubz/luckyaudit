@@ -61,8 +61,9 @@ footer.ft a{display:inline-flex;align-items:center;min-height:44px}
  .aitable thead{display:none}.aitable,.aitable tbody,.aitable tr,.aitable td{display:block;width:100%}.aitable tr{border-bottom:1px solid var(--line);padding:12px 0}.aitable td{border:0;padding:4px 0}
  .aitable td:before{content:attr(data-l);display:block;font:700 11px var(--body);text-transform:uppercase;letter-spacing:.16em;color:var(--mute);margin-bottom:2px}
  .chk li{flex-direction:column;gap:6px}.chk .tag{flex:none}
- .cta{padding:0 18px;font-size:14px}.mark{font-size:13px}
+ .cta{padding:0 18px;font-size:14px}.mark{font-size:13px;white-space:nowrap}
 }
+@media(max-width:480px){.mark i{display:none}}
 
 :root{--bg:#0c0b0a;--tx:#d8d1c5;--ink:#efe9df;--mute:#a59d90;--card:#151311;--line:rgba(239,233,223,.12);--acc:#c9a45c;--good:#8fb3a3;--bad:#e0866b;--note:#d9b46a;--r:18px;
 --head:"Cormorant Garamond",Georgia,serif;--body:Inter,system-ui,sans-serif;--cta-bg:#c9a45c;--cta-tx:#17130c;
